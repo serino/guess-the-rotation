@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <script src="home.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+
+  <title>Guess the Rotation</title>
+</head>
+
+<body>
+  <h1>Guess the Rotation</h1>
+
+  <div>
+  <img id="image" src="compass.png"></img>
+  </div>
+
+  <bold>How many degrees is the image rotated?</bold>
+  <div>
+    <input id="degreesInput" type="number" placeholder="0 - 359">
+    <button id="submitButton">Submit</button>
+    <p id="resultParagraph"></p>
+  </div>
+
+  <button id="restartButton" onclick="restartGame()">Restart</button>
+</body>
+</html>

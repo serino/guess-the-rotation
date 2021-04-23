@@ -1,0 +1,1 @@
+This program allows the user to guess the rotation of the compass image. After the user input their guess, the program shows them whehter their guess was correct. If their guess was not correct, it tells them how many degrees they were off by.
